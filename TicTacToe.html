@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="TicTacToe.css">
+  </head>
+  <body>
+    <div class="background">
+        <h1 class="title">Tic-Tac-Toe-Game!</h1>
+        <div class="board text-center">
+            Player <span class="display-player playerX">X</span>'s turn'
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <div cell="0" class="col-4-tile"></div>
+                <div cell="1" class="col-4-tile"></div>
+                <div cell="2" class="col-4-tile"></div>
+            </div>
+            <div class="row text-center">
+                <div cell="3" class="col-4-tile"></div>
+                <div cell="4" class="col-4-tile"></div>
+                <div cell="5" class="col-4-tile"></div>
+            </div>
+            <div class="row text-center">
+                <div cell="6" class="col-4-tile"></div>
+                <div cell="7" class="col-4-tile"></div>
+                <div cell="8" class="col-4-tile"></div>
+            </div>
+        </div>
+        <br>
+        <div class="box">
+        <div class="winner alert hide" ></div>
+        <button id="restart" class="btn btn-success">Restart</button>
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="TicTacToe.js"></script>
+  </body>
+</html>
+
+
